@@ -23,6 +23,12 @@ casper.test.begin('Mobile Homepage Checks', function suite(test) {
         this.capture('football.png');
     });
 
+    casper.thenOpen('http://m.bbc.co.uk/sport/tennis/mens-singles/results', function() {
+        test.assertTitle('Results - Men\'s Singles - Tennis - BBC Sport');
+
+        test.assertElementCount('div.share-this', 1);
+    });
+
     casper.run(function() {
         test.done();
     });
