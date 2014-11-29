@@ -11,7 +11,7 @@ casper.test.begin('Mobile Homepage Checks', function suite(test) {
 
         test.assertElementCount('article.top-lead', 1);
 
-        test.assertTextExists('Fixtlures, Scores & Results');
+        test.assertTextExists('Fixtures, Scores & Results');
 
         this.capture('homepage.png');
     });
