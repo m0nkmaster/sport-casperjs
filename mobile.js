@@ -17,7 +17,7 @@ casper.test.begin('Mobile Homepage Checks', function suite(test) {
     });
 
     casper.thenOpen('http://m.bbc.co.uk/sport/football', function() {
-        test.assertTitle('Footballl - BBC Sport');
+        test.assertTitle('Football - BBC Sport');
         var title = this.fetchText('article.top-lead .title');
         this.echo(title);
         this.capture('football.png');
