@@ -9,11 +9,11 @@ casper.test.begin('Desktop Homepage Checks', function suite(test) {
 
         test.assertExists('#top-story');
 
+        // section digests
         test.assertElementCount('div.section-digest', 2);
-
         test.assertSelectorHasText('div.section-digest h2:first-of-type', 'More Sports');
+        test.assertSelectorHasText('div.section-digest h2:last-of-type', 'Around the UK');
 
-        this.capture('homepage.png');
     });
 
     casper.run(function() {
