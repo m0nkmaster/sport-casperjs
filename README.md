@@ -6,12 +6,13 @@ A lightweight suite of CasperJS UI tests for the BBC Sport website. These tests 
 Requirments
 -----------
 
-phantomjs (n.b. phantomjs requires Python 2.6+)
-
-casperjs 
+* [PhantomJS](http://phantomjs.org) (n.b. phantomjs requires Python 2.6+
+* [CasperJS](http://docs.casperjs.org/en/latest/testing.html)
 
 Installation
 ------------
+
+You should only need to install CasperJS, which you can get through NPM.
 
 ``npm install casperjs``
 
@@ -19,3 +20,5 @@ Running the tests
 -----------------
 
 ``$ casperjs test tests/``
+
+Simple!
