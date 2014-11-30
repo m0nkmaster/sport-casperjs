@@ -12,9 +12,9 @@ Requirments
 Installation
 ------------
 
-You should only need to install CasperJS, which you can get through NPM.
+There is a package.json file in the root folder which details what you need, so as long as you have NPM installed, you just need to run:
 
-``npm install casperjs``
+``npm install``
 
 Running the tests
 -----------------
