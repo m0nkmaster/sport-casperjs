@@ -28,4 +28,4 @@ Writing tests
 
 All the tests are in the `/tests` folder. Read the [Casper Tester object documentation](http://docs.casperjs.org/en/latest/testing.html) for details on how to write tests.
 
-You should restrict your test files to one file per page ideally.
+You should restrict your test files to one page per file ideally.
