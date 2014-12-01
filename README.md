@@ -19,9 +19,11 @@ There is a package.json file in the root folder which details what you need, so 
 Running the tests
 -----------------
 
-``$ casperjs test tests/``
+``casperjs test tests/``
 
-Simple!
+Running the tests over a web  proxy:
+
+``casperjs test tests/ --proxy=http://www-cache.reith.bbc.co.uk:80``
 
 Writing tests
 -------------
